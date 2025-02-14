@@ -7,6 +7,7 @@ public class Main {
         Salesperson salesperson = new Salesperson("Jane Smith", "456 Elm St", "555-5678", 101);
         Transaction transaction = new Transaction("John Doe", invoice);
 
+        vehicle.displayInfo();
         customer.tradeVehicle();
         salesperson.fillInvoice();
         System.out.println("Transaction completed.");

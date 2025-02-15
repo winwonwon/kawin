@@ -22,11 +22,11 @@ jobs:
 
       - name: Compile Java
         run: |
-          cd win/HolidayTravelVehicles
+          cd HolidayTravelVehicles
           mkdir -p bin
           javac -d bin *.java
 
       - name: Run Main Class
         run: |
-          cd win/HolidayTravelVehicles/bin
+          cd HolidayTravelVehicles
           java MainClassName  # Replace MainClassName with your actual main class name
